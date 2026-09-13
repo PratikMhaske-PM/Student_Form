@@ -13,6 +13,7 @@ app = FastAPI(title="School Management API")
 origins = [
     "http://localhost:5173",  # Vite default port
     "http://localhost:3000",
+    "https://frontend-psi-six-69.vercel.app"
 ]
 
 app.add_middleware(
